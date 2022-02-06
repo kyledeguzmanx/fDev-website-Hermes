@@ -34,4 +34,15 @@ nav {
       -ms-flex-align: center;
           align-items: center;
 }
+
+#introduction-index {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  place-items: center;
+}
 /*# sourceMappingURL=style.css.map */

@@ -24,3 +24,9 @@ nav{
     justify-content: space-between;
     align-items: center;
 }
+
+#introduction-index{
+    display: flex;
+    flex-direction: row;
+    place-items: center;
+}
