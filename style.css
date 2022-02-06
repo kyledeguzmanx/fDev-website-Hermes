@@ -45,4 +45,9 @@ nav {
           flex-direction: row;
   place-items: center;
 }
+
+#introduction-index div {
+  width: 762px;
+  max-width: 762px;
+}
 /*# sourceMappingURL=style.css.map */
