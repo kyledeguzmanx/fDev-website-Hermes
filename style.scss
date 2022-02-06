@@ -7,4 +7,13 @@ html{margin:0;}
 body{
     margin:0;
     background-color: $primary-bgColor;
+} 
+#above-nav{
+    text-align: right;
+    padding-top: 26px;
+    padding-bottom: 26px;
+    margin-right: 112px;
+    a{
+        padding-right: 37px;
+    }
 }

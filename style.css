@@ -6,4 +6,15 @@ body {
   margin: 0;
   background-color: #f6f1eb;
 }
+
+#above-nav {
+  text-align: right;
+  padding-top: 26px;
+  padding-bottom: 26px;
+  margin-right: 112px;
+}
+
+#above-nav a {
+  padding-right: 37px;
+}
 /*# sourceMappingURL=style.css.map */
