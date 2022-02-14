@@ -94,4 +94,15 @@ nav .nav-right a i.fas {
 #introduction-index a {
   color: #4c4949;
 }
+
+#introduction-video div {
+  margin: 0 auto;
+  width: 70vw;
+  overflow: hidden;
+}
+
+#introduction-video div iframe {
+  width: 100%;
+  height: 40vw;
+}
 /*# sourceMappingURL=style.css.map */
