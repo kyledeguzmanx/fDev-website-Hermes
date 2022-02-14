@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap");
 html {
   margin: 0;
 }
@@ -70,11 +71,27 @@ nav .nav-right a i.fas {
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
-  place-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 60px;
+  font-family: 'Roboto Condensed', sans-serif;
 }
 
 #introduction-index div {
   width: 762px;
   max-width: 762px;
+  text-align: center;
+  letter-spacing: 2px;
+}
+
+#introduction-index h1 {
+  text-transform: uppercase;
+  letter-spacing: 7px;
+  font-size: 24px;
+}
+
+#introduction-index a {
+  color: #4c4949;
 }
 /*# sourceMappingURL=style.css.map */

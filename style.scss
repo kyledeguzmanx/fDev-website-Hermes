@@ -2,6 +2,7 @@ $primary-bgColor:#f6f1eb;
 $secondary-bgColor: #fffcf7;
 $header-color: #444444;
 $paragraph-color: #4c4949;
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap');
 
 html{margin:0;}
 body{
@@ -54,9 +55,22 @@ nav{
 #introduction-index{
     display: flex;
     flex-direction: row;
-    place-items: center;
+    justify-content: center;
+    margin-top: 60px;
+    font-family: 'Roboto Condensed', sans-serif;
     div{
         width: 762px;
         max-width: 762px;
+        text-align: center;
+        letter-spacing: 2px;
+    }
+    h1{
+        text-transform: uppercase;
+        letter-spacing: 7px;
+        font-size: 24px;
+        
+    }
+    a{
+        color: $paragraph-color;
     }
 }
