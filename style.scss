@@ -109,4 +109,16 @@ nav{
         font-weight: 400;
         font-size: 27px;
     }
+    #section-one-gallery{
+        width: 70vw;
+        .cols4{
+            display: flex;
+            flex-direction: row;
+
+        }
+        .cols2{
+            display: flex;
+            flex-direction: row;
+        }
+    }
 }

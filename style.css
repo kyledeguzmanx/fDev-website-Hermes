@@ -130,4 +130,28 @@ nav .nav-right a i.fas {
   font-weight: 400;
   font-size: 27px;
 }
+
+#section-one #section-one-gallery {
+  width: 70vw;
+}
+
+#section-one #section-one-gallery .cols4 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+#section-one #section-one-gallery .cols2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
 /*# sourceMappingURL=style.css.map */
