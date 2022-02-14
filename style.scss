@@ -60,13 +60,14 @@ nav{
     display: flex;
     flex-direction: row;
     justify-content: center;
-    margin-top: 60px;
+    margin-top: 40px;
+    margin-bottom: 40px;
     font-family: 'Roboto Condensed', sans-serif;
     div{
         width: 762px;
         max-width: 762px;
         text-align: center;
-        letter-spacing: 2px;
+        letter-spacing: 2.5px;
     }
     h1{
         text-transform: uppercase;
@@ -74,8 +75,13 @@ nav{
         font-size: 24px;
         
     }
+    p{
+        line-height: 1.5;
+    }
     a{
         color: $paragraph-color;
+        display: inline-block;
+        padding-top: 10px;
     }
 }
 #introduction-video{
