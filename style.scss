@@ -12,7 +12,7 @@ body{
     text-align: right;
     padding-top: 26px;
     padding-bottom: 26px;
-    margin-right: 112px;
+    margin-right: 60px;
     a{
         padding-right: 20px;
         font-size: 11px;
@@ -23,6 +23,31 @@ nav{
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+
+    height: 50px;
+
+    .nav-left{
+        margin-left: 75px;
+        a{
+            text-decoration: none;
+            color: $paragraph-color;
+        }
+    }
+
+    .nav-center{
+        height: 100%;
+        img{
+            height: 100%;
+        }
+    }
+    .nav-right{
+        margin-right: 75px;
+        a i.fas{
+            padding-left: 30px;
+        }
+
+    }
+
 }
 
 #introduction-index{

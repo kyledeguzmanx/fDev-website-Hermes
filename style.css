@@ -11,7 +11,7 @@ body {
   text-align: right;
   padding-top: 26px;
   padding-bottom: 26px;
-  margin-right: 112px;
+  margin-right: 60px;
 }
 
 #above-nav a {
@@ -33,6 +33,32 @@ nav {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  height: 50px;
+}
+
+nav .nav-left {
+  margin-left: 75px;
+}
+
+nav .nav-left a {
+  text-decoration: none;
+  color: #4c4949;
+}
+
+nav .nav-center {
+  height: 100%;
+}
+
+nav .nav-center img {
+  height: 100%;
+}
+
+nav .nav-right {
+  margin-right: 75px;
+}
+
+nav .nav-right a i.fas {
+  padding-left: 30px;
 }
 
 #introduction-index {
