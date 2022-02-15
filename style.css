@@ -180,4 +180,21 @@ nav .nav-right a i.fas {
   text-transform: uppercase;
   padding-bottom: 20px;
 }
+
+@media only screen and (max-width: 1026px) {
+  #section-one #section-one-gallery .cols4 {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  #section-one #section-one-gallery .cols2 img {
+    width: 80vw;
+    max-width: 398px;
+    max-height: 398px;
+  }
+  #section-one #section-one-gallery .cols2 .item-last {
+    margin-right: 0;
+  }
+}
 /*# sourceMappingURL=style.css.map */
