@@ -170,8 +170,9 @@ nav .nav-right a i.fas {
 }
 
 #section-one #section-one-gallery .cols2 img {
-  width: 290px;
-  height: 290px;
+  width: 18vw;
+  max-width: 290px;
+  max-height: 290px;
 }
 
 #section-one #section-one-gallery .cols2 p {
