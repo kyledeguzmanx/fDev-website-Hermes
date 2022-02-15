@@ -128,11 +128,13 @@ nav .nav-right a i.fas {
   text-align: center;
   font-family: 'Roboto Condensed', sans-serif;
   letter-spacing: 2px;
-  font-weight: 400;
+  font-weight: 700;
   font-size: 27px;
+  padding-bottom: 40px;
 }
 
 #section-one #section-one-gallery {
+  margin-top: 10px;
   width: 80vw;
   margin: 0 auto;
 }
