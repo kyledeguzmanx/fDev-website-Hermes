@@ -10,5 +10,6 @@ Live Site: https://kyledeguzmanx.github.io/fDev-website-Hermes/
 - Javascript  
 
 ## CREDITS
-- [Hermes](https://hermes.com/) Official Site   
+- [Hermes](https://hermes.com/) Official Site     
+- Media Queries by [CSS TRICKS](https://css-tricks.com/a-complete-guide-to-css-media-queries/)  
 - Pixel Ruler by [RapidTable](https://www.rapidtables.com/web/tools/pixel-ruler.html)   
