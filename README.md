@@ -5,6 +5,9 @@ A clone of the Hermes website. Whereas in previous projects I focused on CSS sty
 
 Live Site: https://kyledeguzmanx.github.io/fDev-website-Hermes/  
 
+## FEATURES
+- responsive web design  
+
 ## TECHNOLOGY USED
 - SASS   
 - Javascript  
