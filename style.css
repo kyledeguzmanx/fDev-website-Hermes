@@ -206,7 +206,6 @@ nav .nav-right a i.fas {
 
 #section-two div {
   width: 762px;
-  max-width: 762px;
   text-align: center;
   letter-spacing: 2.5px;
   margin: 0 auto;
@@ -228,8 +227,9 @@ nav .nav-right a i.fas {
   padding-top: 10px;
 }
 
-#section-two #seciton-two-videoContainer {
+#section-two #section-two-header {
   margin-top: 10px;
+  padding: 50px 0;
   width: 80vw;
   margin: 0 auto;
   background-color: #fffcf7;

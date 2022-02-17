@@ -174,7 +174,6 @@ nav{
 
     div{
         width: 762px;
-        max-width: 762px;
         text-align: center;
         letter-spacing: 2.5px;
         margin: 0 auto;
@@ -193,8 +192,9 @@ nav{
         display: inline-block;
         padding-top: 10px;
     }
-    #seciton-two-videoContainer{
+    #section-two-header{
         margin-top: 10px;
+        padding: 50px 0;
         width: 80vw; 
         margin: 0 auto;
         background-color: $secondary-bgColor;
