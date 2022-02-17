@@ -212,6 +212,22 @@ nav .nav-right a i.fas {
   margin: 0 auto;
 }
 
+#section-two h2 {
+  text-transform: uppercase;
+  letter-spacing: 7px;
+  font-size: 24px;
+}
+
+#section-two p {
+  line-height: 1.5;
+}
+
+#section-two a {
+  color: #4c4949;
+  display: inline-block;
+  padding-top: 10px;
+}
+
 #section-two #seciton-two-videoContainer {
   margin-top: 10px;
   width: 80vw;
