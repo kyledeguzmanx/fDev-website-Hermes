@@ -225,6 +225,7 @@ nav .nav-right a i.fas {
   color: #4c4949;
   display: inline-block;
   padding-top: 10px;
+  padding-bottom: 50px;
 }
 
 #section-two #section-two-header {
@@ -233,5 +234,16 @@ nav .nav-right a i.fas {
   width: 80vw;
   margin: 0 auto;
   background-color: #fffcf7;
+}
+
+#section-two-video div {
+  margin: 0 auto;
+  width: 70vw;
+  overflow: hidden;
+}
+
+#section-two-video div iframe {
+  width: 80%;
+  height: 35vw;
 }
 /*# sourceMappingURL=style.css.map */

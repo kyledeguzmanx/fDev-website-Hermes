@@ -191,6 +191,7 @@ nav{
         color: $paragraph-color;
         display: inline-block;
         padding-top: 10px;
+        padding-bottom: 50px;
     }
     #section-two-header{
         margin-top: 10px;
@@ -201,4 +202,16 @@ nav{
 
     }
 
+}
+#section-two-video{
+
+    div{
+        margin: 0 auto;
+        width: 70vw;
+        overflow: hidden;
+        iframe{
+            width: 80%;
+            height: 35vw;
+        }
+    }
 }
