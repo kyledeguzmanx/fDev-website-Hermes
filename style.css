@@ -197,4 +197,25 @@ nav .nav-right a i.fas {
     margin-right: 0;
   }
 }
+
+#section-two {
+  margin-top: 130px;
+  width: 100%;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+#section-two div {
+  width: 762px;
+  max-width: 762px;
+  text-align: center;
+  letter-spacing: 2.5px;
+  margin: 0 auto;
+}
+
+#section-two #seciton-two-videoContainer {
+  margin-top: 10px;
+  width: 80vw;
+  margin: 0 auto;
+  background-color: #fffcf7;
+}
 /*# sourceMappingURL=style.css.map */
