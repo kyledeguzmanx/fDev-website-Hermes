@@ -55,8 +55,7 @@ nav{
     }
 
 }
-
-#introduction-index{
+@mixin standard-introduction{
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -69,7 +68,7 @@ nav{
         text-align: center;
         letter-spacing: 2.5px;
     }
-    h1{
+    h1,h2{
         text-transform: uppercase;
         letter-spacing: 7px;
         font-size: 24px;
@@ -83,6 +82,11 @@ nav{
         display: inline-block;
         padding-top: 10px;
     }
+
+}
+#introduction-index{
+    @include standard-introduction;
+    
 }
 #introduction-video{
 
@@ -214,4 +218,7 @@ nav{
             height: 35vw;
         }
     }
+}
+#section-three-introduction{
+    @include standard-introduction;
 }

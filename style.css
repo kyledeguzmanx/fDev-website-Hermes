@@ -91,7 +91,7 @@ nav .nav-right a i.fas {
   letter-spacing: 2.5px;
 }
 
-#introduction-index h1 {
+#introduction-index h1, #introduction-index h2 {
   text-transform: uppercase;
   letter-spacing: 7px;
   font-size: 24px;
@@ -245,5 +245,44 @@ nav .nav-right a i.fas {
 #section-two-video div iframe {
   width: 80%;
   height: 35vw;
+}
+
+#section-three-introduction {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+#section-three-introduction div {
+  width: 762px;
+  max-width: 762px;
+  text-align: center;
+  letter-spacing: 2.5px;
+}
+
+#section-three-introduction h1, #section-three-introduction h2 {
+  text-transform: uppercase;
+  letter-spacing: 7px;
+  font-size: 24px;
+}
+
+#section-three-introduction p {
+  line-height: 1.5;
+}
+
+#section-three-introduction a {
+  color: #4c4949;
+  display: inline-block;
+  padding-top: 10px;
 }
 /*# sourceMappingURL=style.css.map */
