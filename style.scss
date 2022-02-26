@@ -195,6 +195,7 @@ nav{
         margin: 0 auto;
         width: 70vw;
         overflow: hidden;
+        padding-bottom: 20px;
         iframe,img{
             width: 80%;
             height: 35vw;
@@ -269,6 +270,12 @@ nav{
                 }
             }
         }
+    }
+    #section-two,#section-four{
+        #section-two-header,#section-four-header{
+            width: 100%;
+        }
+
     }
     #section-three-gallery{
         display: flex;
