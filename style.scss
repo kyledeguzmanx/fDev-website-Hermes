@@ -224,4 +224,32 @@ nav{
 }
 #section-three-gallery{
     @include standard-margin;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+    #three-left{
+        width: 50vw;
+        display:flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        img{
+            width: 85%;
+        }
+    }
+    #three-right{
+        width: 50vw;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        img{
+            width: 30%;
+        }
+        div{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+        }
+    }
 }
