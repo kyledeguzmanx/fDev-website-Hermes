@@ -152,37 +152,13 @@ nav{
     }
 }
 
-@media only screen and (max-width: 1026px){
-   #section-one{
-       #section-one-gallery{
-           .cols4{
-                flex-direction: column;
-           }
-           .cols2{
-               img{
-                   width: 80vw;
-                   max-width: 398px;
-                   max-height: 398px;
-               }
-               .item-last{
-                   margin-right: 0;
-               }
-           }
-       }
-   }
-}
 
 #section-two{
     margin-top: 130px;
     width: 100%;
     font-family: 'Roboto Condensed', sans-serif;
 
-    div{
-        width: 762px;
-        text-align: center;
-        letter-spacing: 2.5px;
-        margin: 0 auto;
-    }
+    
     h2{
         text-transform: uppercase;
         letter-spacing: 7px;
@@ -203,6 +179,13 @@ nav{
         padding: 50px 0;
         @include standard-margin;
         background-color: $secondary-bgColor;
+
+        div{
+            width: 80%;
+            text-align: center;
+            letter-spacing: 2.5px;
+            margin: 0 auto;
+        }
 
     }
 
@@ -245,6 +228,7 @@ nav{
         display: flex;
         flex-direction: column;
         justify-content: space-around;
+        padding-top: 50px;
         img{
             width: 15vw;
         }
@@ -266,3 +250,47 @@ nav{
         }
     }
 }
+
+
+@media only screen and (max-width: 1026px){
+    #section-one{
+        #section-one-gallery{
+            .cols4{
+                 flex-direction: column;
+            }
+            .cols2{
+                img{
+                    width: 40vw;
+                    max-width: 340px;
+                    max-height: 340px;
+                }
+                .item-last{
+                    margin-right: 0;
+                }
+            }
+        }
+    }
+    #section-three-gallery{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        #three-left{
+            width: 90vw;
+        }
+        #three-right{
+            width: 90vw;
+            margin-top: 50px;
+            justify-content: space-between;
+
+            img{
+                width: 30vw;
+            }
+        }
+        .three-right-row{
+            justify-content: space-between;
+        }
+        
+    }
+ }
