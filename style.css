@@ -340,7 +340,7 @@ nav .nav-right a i.fas {
   width: 30%;
 }
 
-#section-three-gallery #three-right div {
+#section-three-gallery #three-right .three-right-row {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
