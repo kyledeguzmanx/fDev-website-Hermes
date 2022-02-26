@@ -153,7 +153,7 @@ nav{
 }
 
 
-#section-two{
+#section-two,#section-four{
     margin-top: 130px;
     width: 100%;
     font-family: 'Roboto Condensed', sans-serif;
@@ -174,7 +174,7 @@ nav{
         padding-top: 10px;
         padding-bottom: 50px;
     }
-    #section-two-header{
+    #section-two-header,#section-four-header{
         margin-top: 10px;
         padding: 50px 0;
         @include standard-margin;
@@ -190,12 +190,12 @@ nav{
     }
 
 }
-#section-two-video{
+#section-two-video, #section-four-image{
     div{
         margin: 0 auto;
         width: 70vw;
         overflow: hidden;
-        iframe{
+        iframe,img{
             width: 80%;
             height: 35vw;
         }
@@ -277,15 +277,18 @@ nav{
         align-items: center;
 
         #three-left{
-            width: 90vw;
+            width: 80vw;
+            img{
+                width: 100%;
+            }
         }
         #three-right{
-            width: 90vw;
+            width: 84vw;
             margin-top: 50px;
             justify-content: space-between;
 
             img{
-                width: 30vw;
+                width: 37vw;
             }
         }
         .three-right-row{
