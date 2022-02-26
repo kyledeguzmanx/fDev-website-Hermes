@@ -331,13 +331,22 @@ nav .nav-right a i.fas {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+#section-three-gallery #three-right div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 100%;
 }
 
 #section-three-gallery #three-right img {
-  width: 30%;
+  width: 15vw;
 }
 
 #section-three-gallery #three-right .three-right-row {
