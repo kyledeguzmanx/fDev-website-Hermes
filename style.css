@@ -261,6 +261,7 @@ nav .nav-right a i.fas {
   margin-top: 40px;
   margin-bottom: 40px;
   font-family: 'Roboto Condensed', sans-serif;
+  margin-top: 90px;
 }
 
 #section-three-introduction div {
@@ -284,5 +285,10 @@ nav .nav-right a i.fas {
   color: #4c4949;
   display: inline-block;
   padding-top: 10px;
+}
+
+#section-three-gallery {
+  width: 80vw;
+  margin: 0 auto;
 }
 /*# sourceMappingURL=style.css.map */

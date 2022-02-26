@@ -84,13 +84,15 @@ nav{
     }
 
 }
-#introduction-index{
-    @include standard-introduction;
+@mixin standard-margin {
+    width: 80vw; 
+    margin: 0 auto;
     
 }
+#introduction-index{
+    @include standard-introduction;
+}
 #introduction-video{
-
-    
     div{
         margin: 0 auto;
         width: 70vw;
@@ -117,8 +119,7 @@ nav{
     }
     #section-one-gallery{
         margin-top: 10px;
-        width: 80vw; 
-        margin: 0 auto;
+        @include standard-margin;
 
         .cols4{
             display: flex;
@@ -200,15 +201,13 @@ nav{
     #section-two-header{
         margin-top: 10px;
         padding: 50px 0;
-        width: 80vw; 
-        margin: 0 auto;
+        @include standard-margin;
         background-color: $secondary-bgColor;
 
     }
 
 }
 #section-two-video{
-
     div{
         margin: 0 auto;
         width: 70vw;
@@ -221,4 +220,8 @@ nav{
 }
 #section-three-introduction{
     @include standard-introduction;
+    margin-top: 90px;
+}
+#section-three-gallery{
+    @include standard-margin;
 }
