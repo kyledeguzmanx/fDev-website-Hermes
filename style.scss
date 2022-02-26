@@ -201,17 +201,17 @@ nav{
         }
     }
 }
-#section-three-introduction{
+#section-three-introduction, #section-five-introduction{
     @include standard-introduction;
     margin-top: 90px;
 }
-#section-three-gallery{
+#section-three-gallery, #section-five-gallery{
     @include standard-margin;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
 
-    #three-left{
+    #three-left, #five-left{
         width: 50vw;
         display:flex;
         flex-direction: row;
@@ -223,7 +223,7 @@ nav{
             height: 86%;
         }
     }
-    #three-right{
+    #three-right, #five-right{
         width: 50vw;
         display: flex;
         flex-direction: column;
@@ -270,19 +270,19 @@ nav{
             }
         }
     }
-    #section-three-gallery{
+    #section-three-gallery, #section-five-gallery{
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
 
-        #three-left{
+        #three-left, #five-left{
             width: 80vw;
             img{
                 width: 100%;
             }
         }
-        #three-right{
+        #three-right, #five-right{
             width: 84vw;
             margin-top: 50px;
             justify-content: space-between;
@@ -291,7 +291,7 @@ nav{
                 width: 37vw;
             }
         }
-        .three-right-row{
+        .three-right-row, #five-right-row{
             justify-content: space-between;
         }
         
