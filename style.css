@@ -296,11 +296,14 @@ nav .nav-right a i.fas {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 #section-three-gallery #three-left img, #section-three-gallery #five-left img, #section-five-gallery #three-left img, #section-five-gallery #five-left img {
   width: 85%;
-  height: 86%;
+  height: 80%;
 }
 
 #section-three-gallery #three-right, #section-three-gallery #five-right, #section-five-gallery #three-right, #section-five-gallery #five-right {
