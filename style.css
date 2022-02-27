@@ -350,6 +350,38 @@ nav .nav-right a i.fas {
 
 footer {
   margin-top: 70px;
+  background-color: white;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+footer #footer-rowOne {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+footer #footer-rowOne div {
+  width: 50vw;
+}
+
+footer #footer-rowOne div#footer-rowOne-left {
+  text-align: center;
+}
+
+footer #footer-rowOne div#footer-rowOne-right {
+  text-align: center;
+}
+
+footer #footer-rowOne div#footer-rowOne-right a {
+  display: block;
+  color: #4c4949;
 }
 
 @media only screen and (max-width: 1026px) {

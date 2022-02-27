@@ -254,6 +254,26 @@ nav{
 
 footer{
     margin-top: 70px;
+    background-color: white;
+    font-family: 'Roboto Condensed', sans-serif;
+    #footer-rowOne{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        div{
+            width: 50vw;
+        }
+        div#footer-rowOne-left{
+            text-align: center;
+        }
+        div#footer-rowOne-right{
+            text-align: center;
+            a{
+                display: block;
+                color:$paragraph-color;
+            }
+        }
+    }
 }
 
 
