@@ -181,30 +181,30 @@ nav .nav-right a i.fas {
   padding-bottom: 20px;
 }
 
-#section-two, #section-four {
+#section-two, #section-four, #section-six {
   margin-top: 130px;
   width: 100%;
   font-family: 'Roboto Condensed', sans-serif;
 }
 
-#section-two h2, #section-four h2 {
+#section-two h2, #section-four h2, #section-six h2 {
   text-transform: uppercase;
   letter-spacing: 7px;
   font-size: 24px;
 }
 
-#section-two p, #section-four p {
+#section-two p, #section-four p, #section-six p {
   line-height: 1.5;
 }
 
-#section-two a, #section-four a {
+#section-two a, #section-four a, #section-six a {
   color: #4c4949;
   display: inline-block;
   padding-top: 10px;
   padding-bottom: 50px;
 }
 
-#section-two #section-two-header, #section-two #section-four-header, #section-four #section-two-header, #section-four #section-four-header {
+#section-two #section-two-header, #section-two #section-four-header, #section-two #section-six-header, #section-four #section-two-header, #section-four #section-four-header, #section-four #section-six-header, #section-six #section-two-header, #section-six #section-four-header, #section-six #section-six-header {
   margin-top: 10px;
   padding: 50px 0;
   width: 80vw;
@@ -212,20 +212,20 @@ nav .nav-right a i.fas {
   background-color: #fffcf7;
 }
 
-#section-two #section-two-header div, #section-two #section-four-header div, #section-four #section-two-header div, #section-four #section-four-header div {
+#section-two #section-two-header div, #section-two #section-four-header div, #section-two #section-six-header div, #section-four #section-two-header div, #section-four #section-four-header div, #section-four #section-six-header div, #section-six #section-two-header div, #section-six #section-four-header div, #section-six #section-six-header div {
   width: 80%;
   text-align: center;
   letter-spacing: 2.5px;
   margin: 0 auto;
 }
 
-#section-two-video div, #section-four-image div {
+#section-two-video div, #section-four-image div, #section-six-image div {
   margin: 0 auto;
   width: 70vw;
   overflow: hidden;
 }
 
-#section-two-video div iframe, #section-two-video div img, #section-four-image div iframe, #section-four-image div img {
+#section-two-video div iframe, #section-two-video div img, #section-four-image div iframe, #section-four-image div img, #section-six-image div iframe, #section-six-image div img {
   width: 80%;
   height: 35vw;
 }
@@ -401,7 +401,7 @@ nav .nav-right a i.fas {
 }
 
 @media only screen and (max-width: 800px) {
-  #section-two #section-two-header, #section-two #section-four-header, #section-four #section-two-header, #section-four #section-four-header {
+  #section-two #section-two-header, #section-two #section-four-header, #section-two #section-six-header, #section-four #section-two-header, #section-four #section-four-header, #section-four #section-six-header, #section-six #section-two-header, #section-six #section-four-header, #section-six #section-six-header {
     width: 100%;
   }
 }
