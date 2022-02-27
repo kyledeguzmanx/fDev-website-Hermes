@@ -153,7 +153,7 @@ nav{
 }
 
 
-#section-two,#section-four, #section-six{
+#section-two,#section-four, #section-six, #section-eight{
     margin-top: 130px;
     width: 100%;
     font-family: 'Roboto Condensed', sans-serif;
@@ -174,7 +174,7 @@ nav{
         padding-top: 10px;
         padding-bottom: 50px;
     }
-    #section-two-header,#section-four-header, #section-six-header{
+    #section-two-header,#section-four-header, #section-six-header, #section-eight-header{
         margin-top: 10px;
         padding: 50px 0;
         @include standard-margin;
@@ -190,7 +190,7 @@ nav{
     }
 
 }
-#section-two-video, #section-four-image, #section-six-image{
+#section-two-video, #section-four-image, #section-six-image, #section-eight-image{
     div{
         margin: 0 auto;
         width: 70vw;
@@ -298,8 +298,8 @@ nav{
     }
  }
  @media only screen and (max-width: 800px){
-    #section-two,#section-four, #section-six{
-        #section-two-header,#section-four-header, #section-six-header{
+    #section-two,#section-four, #section-six, #section-eight{
+        #section-two-header,#section-four-header, #section-six-header, #section-eight-header{
             width: 100%;
         }
 
