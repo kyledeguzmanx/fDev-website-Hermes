@@ -348,6 +348,10 @@ nav .nav-right a i.fas {
   color: silver;
 }
 
+footer {
+  margin-top: 70px;
+}
+
 @media only screen and (max-width: 1026px) {
   #section-one #section-one-gallery .cols4 {
     -webkit-box-orient: vertical;
