@@ -201,17 +201,17 @@ nav{
         }
     }
 }
-#section-three-introduction, #section-five-introduction{
+#section-three-introduction, #section-five-introduction, #section-seven-introduction{
     @include standard-introduction;
     margin-top: 90px;
 }
-#section-three-gallery, #section-five-gallery{
+#section-three-gallery, #section-five-gallery, #section-seven-gallery{
     @include standard-margin;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
 
-    #three-left, #five-left{
+    #three-left, #five-left, #seven-left{
         width: 50vw;
         display:flex;
         flex-direction: row;
@@ -223,7 +223,7 @@ nav{
             height: 80%;
         }
     }
-    #three-right, #five-right{
+    #three-right, #five-right, #seven-right{
         width: 50vw;
         display: flex;
         flex-direction: column;
